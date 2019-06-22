@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalhesActivity"
+    android:orientation="vertical"
+    android:background="#e6e6e6">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imgButtonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:layout_margin="20dp"
+                android:background="@mipmap/back_white"/>
+
+            <ImageView
+                android:id="@+id/imgGrandeDois"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/hamb"
+                android:scaleType="fitXY"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtPaisDetalhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hamburguers"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/txtNomeDetalhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Nome Do Hamburguer"
+            android:textSize="30sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="INGREDIENTES"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ingredientesUm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesdois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesTres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesQua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesCin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesSeis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesSete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesOito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesNove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/ingredientesDez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="MODO DE PREPARO"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/prepUm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepDois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepTres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepQua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepCin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepSeis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepSete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepOito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepNove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/prepDez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Assista o vídeo do preparo!"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnYoutube"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/yt"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Precisa de mais informações?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnSite"
+            android:layout_height="match_parent"
+            android:layout_width="150dp"
+            android:text="Acesse o Site"
+            android:background="#fff"
+            android:layout_margin="20dp" />
+
+    </TableLayout>
+
+</ScrollView>

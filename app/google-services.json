@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "776722302906",
+    "firebase_url": "https://iamhungry-108f4.firebaseio.com",
+    "project_id": "iamhungry-108f4",
+    "storage_bucket": "iamhungry-108f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776722302906:android:45380481a342e69c",
+        "android_client_info": {
+          "package_name": "br.com.matheusdelgado.iamhungry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776722302906-mgsp7aq3hkk1adfu4rucl029k4iohs5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.matheusdelgado.iamhungry",
+            "certificate_hash": "43ea1e36feba1ab64f732c17b62a4f17831168d6"
+          }
+        },
+        {
+          "client_id": "776722302906-n9ju1c308g1u6p4b6j9gob9ah5j68jbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJHZOIX4G87sz82PO1XD9pFbNmiKwjlmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776722302906-n9ju1c308g1u6p4b6j9gob9ah5j68jbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

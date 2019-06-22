@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgGradeUm"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hamb"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haburguer da tia"
+            android:layout_toRightOf="@id/imgGradeUm"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/txtPais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgGradeUm"
+            android:layout_below="@id/txtNome"
+            android:text="jfadhsufhuidshf"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
